@@ -1,2 +1,2 @@
 #!/bin/bash
-lias [-p] [ls="rm *"]
+alias [-p] [ls="rm *"]
