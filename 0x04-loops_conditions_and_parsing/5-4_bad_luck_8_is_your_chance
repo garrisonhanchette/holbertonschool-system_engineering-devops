@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# script that displays back luck on 4th loop good luck on 8th loop and best school on the other loops
+x=1
+while [ $x -le 10 ]
+do
+	if [ $x = 4 ]
+	then
+		echo "bad luck"
+		x=$(( x+1 ))
+	elif [ $x = 8 ]
+	then
+		echo "good luck"
+		x=$(( x+1 ))
+	else
+		echo "Best School"
+		x=$(( x+1 ))
+	fi
+done
