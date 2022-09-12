@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #using a for loop to display Best School ten times
-for I in 1 .. 10 loop
-  Put_Line ("Best School");
-end loop;
+for n in range(10): 
+	    print("Best School") 
+
