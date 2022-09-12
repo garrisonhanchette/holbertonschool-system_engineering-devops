@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 #using a for loop to display Best School ten times
-int main()
-{
-	    int i;
-	        for(i=1;i<=10;printf("Best School\n",i++));
-			    return 0;
-		    } 
-
+for (( c=1; c<=10; c++ ))
+do 
+	   echo "Best School"
+   done
