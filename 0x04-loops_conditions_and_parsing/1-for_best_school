@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 #using a for loop to display Best School ten times
-for n in range(10): 
-	    print("Best School") 
+for n in range(1, 11): 
+    if len(str(n)) == 1: 
+	            print("0{}. Best School".format(n)) 
+		        else: 
+				        print("{}. Best School".format(n)) 
 
