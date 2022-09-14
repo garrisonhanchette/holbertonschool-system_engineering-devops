@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # killing and infinite running loop
-pkill 4-to_infinity_and_beyond
+kill "$ ( ps - x | pgrep -f beyond)"
+
