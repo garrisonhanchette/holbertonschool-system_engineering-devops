@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # killing and infinite running loop
-kill "$ ( ps - x | pgrep -f 'beyond')"
+kil -9 $PID
 
 
