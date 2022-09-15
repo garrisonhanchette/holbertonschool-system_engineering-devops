@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # killing and infinite running loop
-kill -9 17727
+kill -9 'pidof 4-to_infinity_and_beyond'
