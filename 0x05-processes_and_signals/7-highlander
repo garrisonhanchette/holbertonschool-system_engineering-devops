@@ -1,6 +1,8 @@
 #!/bin/usr/env bash
 # highlander
-i = 1
-trap 'echo "I am invincible!!!"' SIGTERM
-	while
-	to infinity and beond
+while true
+do
+	echo "To infinity and beyond"
+		sleep 2
+	trap 'echo "I am invincible!!!"' SIGTERM
+done
