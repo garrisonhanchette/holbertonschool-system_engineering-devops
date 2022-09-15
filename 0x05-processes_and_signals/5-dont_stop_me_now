@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # killing and infinite running loop
-kil -9 $PID
+pkil -9 4-to_infinity_and_beyond
 
 
