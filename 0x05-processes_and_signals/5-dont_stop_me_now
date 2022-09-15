@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # killing and infinite running loop
-kill -9 17569
+kill -9 17727
 
 
